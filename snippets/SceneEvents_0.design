@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <dolater comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <create-actor3 comment="false" x="37" y="67">
+                            <actortype eid="0" id="0"/>
+                            <int id="1" val="315"/>
+                            <int id="2" val="235"/>
+                            <int id="3" val="1"/>
+                        </create-actor3>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="8" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <int id="0" val="Score:"/>
+                    <int id="1" val="550"/>
+                    <int id="2" val="20"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="87">
+                    <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="600"/>
+                    <int id="2" val="20"/>
+                </draw-text>
+                <set-drawing-layer-actor comment="false" x="26" y="112">
+                    <ACTOR eid="1" id="0"/>
+                </set-drawing-layer-actor>
+            </group>
+        </draw>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="5" id="-1">
+                        <dolater comment="false" x="37" y="70">
+                            <group eventID="5" id="-1">
+                                <scene-change-through comment="false" x="48" y="97">
+                                    <scene eid="1" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </scene-change-through>
+                                <set-game-val-0 comment="false" x="48" y="124">
+                                    <int id="0" val="0"/>
+                                </set-game-val-0>
+                            </group>
+                            <int id="0" val="2.5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </moreeq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>
