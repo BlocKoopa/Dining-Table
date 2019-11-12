@@ -50,7 +50,16 @@
         <scale enabled="true" name="3x"/>
         <scale enabled="true" name="4x"/>
     </androidScales>
-    <folders/>
+    <folders>
+        <group desc="Food, silverware, and other items that proc questions" id="0" name="Items" type="actortype">
+            <r id="0"/>
+        </group>
+        <group desc="Questions and Answers" id="1" name="Question Menu" type="actortype">
+            <r id="2"/>
+            <r id="4"/>
+            <r id="6"/>
+        </group>
+    </folders>
     <packs/>
     <groups/>
     <cgroups>
