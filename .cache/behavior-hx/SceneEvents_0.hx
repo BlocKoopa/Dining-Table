@@ -76,6 +76,7 @@ class SceneEvents_0 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("RandomQuestionValue", randomInt(1, 2));
 		runLater(1000 * 1, function(timeTask:TimedTask):Void
 		{
 			createRecycledActor(getActorType(0), 315, 235, Script.MIDDLE);
@@ -105,6 +106,7 @@ class SceneEvents_0 extends SceneScript
 				g.setFont(getFont(8));
 				g.drawString("" + "Score:", 550, 20);
 				g.drawString("" + (Engine.engine.getGameAttribute("Score") : Float), 600, 20);
+				g.drawString("" + (Engine.engine.getGameAttribute("RandomQuestionValue") : Float), 10, 10);
 				Script.setDrawingLayerToActorLayer(getActor(1));
 			}
 		});

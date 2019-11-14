@@ -119,18 +119,40 @@ class ActorEvents_0 extends ActorScript
 						actor.growTo(100/100, 100/100, 0, Easing.linear);
 						actor.clearFilters();
 						actor.moveBy(-170, 0, 0.5, Easing.linear);
-						runLater(1000 * 1, function(timeTask:TimedTask):Void
+						if(((Engine.engine.getGameAttribute("RandomQuestionValue") : Float) <= 1))
 						{
-							createRecycledActor(getActorType(2), 400, 50, Script.FRONT);
-							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+							runLater(1000 * 1, function(timeTask:TimedTask):Void
 							{
-								createRecycledActor(getActorType(4), 400, 150, Script.FRONT);
+								createRecycledActor(getActorType(2), 400, 50, Script.FRONT);
 								runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 								{
-									createRecycledActor(getActorType(6), 400, 250, Script.FRONT);
+									createRecycledActor(getActorType(4), 400, 150, Script.FRONT);
+									runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+									{
+										createRecycledActor(getActorType(6), 400, 250, Script.FRONT);
+									}, actor);
 								}, actor);
 							}, actor);
-						}, actor);
+						}
+						else if(((Engine.engine.getGameAttribute("RandomQuestionValue") : Float) >= 2))
+						{
+							runLater(1000 * 1, function(timeTask:TimedTask):Void
+							{
+								createRecycledActor(getActorType(2), 400, 50, Script.FRONT);
+								runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+								{
+									createRecycledActor(getActorType(6), 400, 150, Script.FRONT);
+									runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+									{
+										createRecycledActor(getActorType(4), 400, 250, Script.FRONT);
+									}, actor);
+								}, actor);
+							}, actor);
+						}
+						else
+						{
+							trace("ERROR IN RANDOM QUESTION VALUE");
+						}
 					}
 				}
 			}
