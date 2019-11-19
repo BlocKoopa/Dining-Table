@@ -17,6 +17,19 @@
                             <int id="2" val="100"/>
                             <int id="3" val="2"/>
                         </create-actor3>
+                        <create-actor3 comment="false" x="37" y="119">
+                            <actortype eid="32" id="0"/>
+                            <int id="1" val="30"/>
+                            <int id="2" val="100"/>
+                            <int id="3" val="2"/>
+                        </create-actor3>
+                        <scaleTo comment="false" x="37" y="146">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="75"/>
+                            <int id="2" val="75"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
                     </group>
                     <int id="0" val="1"/>
                     <ACTOR eid="lastcreated" id="2"/>
