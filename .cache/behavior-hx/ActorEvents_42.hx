@@ -98,7 +98,7 @@ class ActorEvents_42 extends ActorScript
 			if(wrapper.enabled && 3 == mouseState)
 			{
 				actor.setFilter([createTintFilter(Utils.getColorRGB(102,255,102), 75/100)]);
-				Engine.engine.setGameAttribute("Answered2", true);
+				Engine.engine.setGameAttribute("Answered5", true);
 				runLater(1000 * 1.9, function(timeTask:TimedTask):Void
 				{
 					Engine.engine.setGameAttribute("Score", ((Engine.engine.getGameAttribute("Score") : Float) + 1));
@@ -111,18 +111,18 @@ class ActorEvents_42 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if(((Engine.engine.getGameAttribute("Answered1") : Bool) == true))
+				if(((Engine.engine.getGameAttribute("Answered4") : Bool) == true))
 				{
 					recycleActor(actor);
 				}
-				else if(((Engine.engine.getGameAttribute("Answered2") : Bool) == true))
+				else if(((Engine.engine.getGameAttribute("Answered5") : Bool) == true))
 				{
 					runLater(1000 * 2, function(timeTask:TimedTask):Void
 					{
 						recycleActor(actor);
 					}, actor);
 				}
-				else if(((Engine.engine.getGameAttribute("Answered3") : Bool) == true))
+				else if(((Engine.engine.getGameAttribute("Answered6") : Bool) == true))
 				{
 					recycleActor(actor);
 				}

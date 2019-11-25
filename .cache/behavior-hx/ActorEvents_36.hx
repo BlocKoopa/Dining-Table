@@ -79,21 +79,21 @@ class ActorEvents_36 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if(((Engine.engine.getGameAttribute("Answered1") : Bool) == true))
+				if(((Engine.engine.getGameAttribute("Answered4") : Bool) == true))
 				{
 					runLater(1000 * 2, function(timeTask:TimedTask):Void
 					{
 						recycleActor(actor);
 					}, actor);
 				}
-				else if(((Engine.engine.getGameAttribute("Answered2") : Bool) == true))
+				else if(((Engine.engine.getGameAttribute("Answered5") : Bool) == true))
 				{
 					runLater(1000 * 2, function(timeTask:TimedTask):Void
 					{
 						recycleActor(actor);
 					}, actor);
 				}
-				else if(((Engine.engine.getGameAttribute("Answered3") : Bool) == true))
+				else if(((Engine.engine.getGameAttribute("Answered6") : Bool) == true))
 				{
 					runLater(1000 * 2, function(timeTask:TimedTask):Void
 					{

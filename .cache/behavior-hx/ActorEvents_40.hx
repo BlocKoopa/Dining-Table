@@ -97,15 +97,15 @@ class ActorEvents_40 extends ActorScript
 		{
 			if(wrapper.enabled)
 			{
-				if(((Engine.engine.getGameAttribute("Answered1") : Bool) == true))
+				if(((Engine.engine.getGameAttribute("Answered4") : Bool) == true))
 				{
 					recycleActor(actor);
 				}
-				else if(((Engine.engine.getGameAttribute("Answered2") : Bool) == true))
+				else if(((Engine.engine.getGameAttribute("Answered5") : Bool) == true))
 				{
 					recycleActor(actor);
 				}
-				else if(((Engine.engine.getGameAttribute("Answered3") : Bool) == true))
+				else if(((Engine.engine.getGameAttribute("Answered6") : Bool) == true))
 				{
 					runLater(1000 * 2, function(timeTask:TimedTask):Void
 					{
@@ -121,7 +121,7 @@ class ActorEvents_40 extends ActorScript
 			if(wrapper.enabled && 3 == mouseState)
 			{
 				actor.setFilter([createTintFilter(Utils.getColorRGB(255,51,51), 75/100)]);
-				Engine.engine.setGameAttribute("Answered3", true);
+				Engine.engine.setGameAttribute("Answered6", true);
 			}
 		});
 		

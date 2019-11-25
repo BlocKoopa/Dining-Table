@@ -54,7 +54,9 @@
         <group desc="Food, silverware, and other items that proc questions" id="0" name="Items" type="actortype">
             <r id="0"/>
             <r id="32"/>
+            <r id="54"/>
             <r id="12"/>
+            <r id="44"/>
         </group>
         <group desc="" id="1" name="SampleLevelQuestionMenu" type="actortype">
             <r id="2"/>
@@ -64,12 +66,20 @@
         <group desc="" id="2" name="L1QuestionData" type="actortype">
             <r id="36"/>
             <r id="38"/>
-            <r id="24"/>
             <r id="40"/>
-            <r id="26"/>
             <r id="42"/>
-            <r id="28"/>
             <r id="14"/>
+            <r id="46"/>
+            <r id="48"/>
+            <r id="50"/>
+            <r id="52"/>
+            <r id="24"/>
+            <r id="56"/>
+            <r id="26"/>
+            <r id="58"/>
+            <r id="28"/>
+            <r id="60"/>
+            <r id="62"/>
         </group>
     </folders>
     <packs/>
@@ -93,16 +103,29 @@
     </attcats>
     <props/>
     <attributes>
-        <number cid="-1" id="0" name="Score" save="true" value="0.0"/>
+        <boolean cid="-1" id="12" name="PlateClick" save="true" value="true"/>
         <boolean cid="-1" id="4" name="SampleQuestionMenu" save="true" value="false"/>
         <boolean cid="-1" id="8" name="Correct_1" save="true" value="false"/>
-        <boolean cid="-1" id="9" name="Answered3" save="true" value="false"/>
         <boolean cid="-1" id="10" name="Correct_2" save="true" value="false"/>
+        <boolean cid="-1" id="11" name="Correct_3" save="true" value="false"/>
+        <boolean cid="-1" id="24" name="Correct_4" save="true" value="false"/>
+        <number cid="-1" id="0" name="Score" save="true" value="0.0"/>
+        <boolean cid="-1" id="13" name="Answered4" save="true" value="false"/>
+        <boolean cid="-1" id="22" name="Answered11" save="true" value="false"/>
+        <boolean cid="-1" id="9" name="Answered3" save="true" value="false"/>
+        <boolean cid="-1" id="20" name="Answered10" save="true" value="false"/>
         <boolean cid="-1" id="2" name="Answered2" save="true" value="false"/>
         <boolean cid="-1" id="6" name="QuestionMenuLv1" save="true" value="false"/>
         <boolean cid="-1" id="1" name="Answered1" save="true" value="false"/>
+        <boolean cid="-1" id="23" name="Answered12" save="true" value="false"/>
+        <boolean cid="-1" id="18" name="Answered8" save="true" value="false"/>
+        <boolean cid="-1" id="16" name="Answered7" save="true" value="false"/>
         <boolean cid="-1" id="3" name="Question" save="true" value="false"/>
         <number cid="-1" id="5" name="RandomQuestionValue" save="true" value="0.0"/>
+        <boolean cid="-1" id="17" name="Answered6" save="true" value="false"/>
+        <boolean cid="-1" id="14" name="Answered5" save="true" value="false"/>
+        <boolean cid="-1" id="25" name="PlateHoverCheck" save="true" value="false"/>
+        <boolean cid="-1" id="21" name="Answered9" save="true" value="false"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -133,7 +156,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,6,8,9,11,12,14,24,26,28,32,36,38,40,42," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,6,8,9,11,12,14,24,26,28,32,36,38,40,42,44,46,48,50,52,54,56,58,60,62," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

@@ -42,7 +42,7 @@
                         </die>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-13 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
@@ -53,7 +53,7 @@
                         </die>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </else-if>
@@ -70,7 +70,7 @@
                         </dolater>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-17 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </else-if>
@@ -88,9 +88,9 @@
                         <int id="1" val="75"/>
                     </filter-tint>
                 </apply-filter>
-                <set-game-val-9 comment="false" x="26" y="82">
+                <set-game-val-17 comment="false" x="26" y="82">
                     <true comment="false" id="0" x="0" y="0"/>
-                </set-game-val-9>
+                </set-game-val-17>
             </group>
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>

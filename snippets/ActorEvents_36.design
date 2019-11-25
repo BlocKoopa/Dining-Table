@@ -16,7 +16,7 @@
                         </dolater>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-13 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </if>
@@ -33,7 +33,7 @@
                         </dolater>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </else-if>
@@ -50,7 +50,7 @@
                         </dolater>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-9 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-17 comment="false" id="0" x="0" y="0"/>
                         <true comment="false" id="1" x="0" y="0"/>
                     </eq>
                 </else-if>

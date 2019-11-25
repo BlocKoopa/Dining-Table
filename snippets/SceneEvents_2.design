@@ -30,6 +30,32 @@
                             <int id="3" val="0"/>
                             <int id="4" val="0"/>
                         </scaleTo>
+                        <create-actor3 comment="false" x="37" y="173">
+                            <actortype eid="44" id="0"/>
+                            <int id="1" val="250"/>
+                            <int id="2" val="150"/>
+                            <int id="3" val="1"/>
+                        </create-actor3>
+                        <scaleTo comment="false" x="37" y="200">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="125"/>
+                            <int id="2" val="125"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                        <create-actor3 comment="false" x="37" y="227">
+                            <actortype eid="54" id="0"/>
+                            <int id="1" val="350"/>
+                            <int id="2" val="150"/>
+                            <int id="3" val="1"/>
+                        </create-actor3>
+                        <scaleTo comment="false" x="37" y="254">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="125"/>
+                            <int id="2" val="125"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
                     </group>
                     <int id="0" val="1"/>
                     <ACTOR eid="lastcreated" id="2"/>
