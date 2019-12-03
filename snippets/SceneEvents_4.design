@@ -118,12 +118,12 @@
                 </set-font-new>
                 <draw-text comment="false" x="26" y="67">
                     <int id="0" val="Score:"/>
-                    <int id="1" val="850"/>
+                    <int id="1" val="750"/>
                     <int id="2" val="20"/>
                 </draw-text>
                 <draw-text comment="false" x="26" y="87">
                     <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="900"/>
+                    <int id="1" val="800"/>
                     <int id="2" val="20"/>
                 </draw-text>
                 <set-drawing-layer-actor comment="false" x="26" y="112">
@@ -262,8 +262,8 @@
                         </die>
                         <create-actor3 comment="false" x="37" y="99">
                             <actortype eid="84" id="0"/>
-                            <int id="1" val="250"/>
-                            <int id="2" val="150"/>
+                            <int id="1" val="-65"/>
+                            <int id="2" val="95"/>
                             <int id="3" val="0"/>
                         </create-actor3>
                         <scaleTo comment="false" x="37" y="126">
@@ -289,7 +289,7 @@
                         </die>
                         <create-actor3 comment="false" x="37" y="242">
                             <actortype eid="88" id="0"/>
-                            <int id="1" val="434"/>
+                            <int id="1" val="350"/>
                             <int id="2" val="176"/>
                             <int id="3" val="0"/>
                         </create-actor3>
@@ -317,7 +317,7 @@
                         <create-actor3 comment="false" x="37" y="385">
                             <actortype eid="90" id="0"/>
                             <int id="1" val="432"/>
-                            <int id="2" val="12"/>
+                            <int id="2" val="0"/>
                             <int id="3" val="0"/>
                         </create-actor3>
                         <scaleTo comment="false" x="37" y="412">

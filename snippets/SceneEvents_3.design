@@ -105,12 +105,12 @@
                 </set-font-new>
                 <draw-text comment="false" x="26" y="67">
                     <int id="0" val="Score:"/>
-                    <int id="1" val="850"/>
+                    <int id="1" val="750"/>
                     <int id="2" val="20"/>
                 </draw-text>
                 <draw-text comment="false" x="26" y="87">
                     <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                    <int id="1" val="900"/>
+                    <int id="1" val="800"/>
                     <int id="2" val="20"/>
                 </draw-text>
                 <set-drawing-layer-actor comment="false" x="26" y="112">

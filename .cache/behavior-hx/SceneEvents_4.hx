@@ -104,21 +104,21 @@ class SceneEvents_4 extends SceneScript
 				if(((Engine.engine.getGameAttribute("TUTORIAL_Count") : Float) == 0))
 				{
 					recycleActor(getLastCreatedActor());
-					createRecycledActor(getActorType(84), 250, 150, Script.FRONT);
+					createRecycledActor(getActorType(84), -65, 95, Script.FRONT);
 					getLastCreatedActor().growTo(50/100, 50/100, 0, Easing.linear);
 					Engine.engine.setGameAttribute("TUTORIAL_Count", 1);
 				}
 				else if(((Engine.engine.getGameAttribute("TUTORIAL_Count") : Float) == 1))
 				{
 					recycleActor(getLastCreatedActor());
-					createRecycledActor(getActorType(88), 434, 176, Script.FRONT);
+					createRecycledActor(getActorType(88), 350, 176, Script.FRONT);
 					getLastCreatedActor().growTo(50/100, 50/100, 0, Easing.linear);
 					Engine.engine.setGameAttribute("TUTORIAL_Count", 2);
 				}
 				else if(((Engine.engine.getGameAttribute("TUTORIAL_Count") : Float) == 2))
 				{
 					recycleActor(getLastCreatedActor());
-					createRecycledActor(getActorType(90), 432, 12, Script.FRONT);
+					createRecycledActor(getActorType(90), 432, 0, Script.FRONT);
 					getLastCreatedActor().growTo(50/100, 50/100, 0, Easing.linear);
 					Engine.engine.setGameAttribute("TUTORIAL_Count", 3);
 				}
@@ -144,8 +144,8 @@ class SceneEvents_4 extends SceneScript
 			if(wrapper.enabled)
 			{
 				g.setFont(getFont(8));
-				g.drawString("" + "Score:", 850, 20);
-				g.drawString("" + (Engine.engine.getGameAttribute("Score") : Float), 900, 20);
+				g.drawString("" + "Score:", 750, 20);
+				g.drawString("" + (Engine.engine.getGameAttribute("Score") : Float), 800, 20);
 				Script.setDrawingLayerToActorLayer(getActor(1));
 			}
 		});

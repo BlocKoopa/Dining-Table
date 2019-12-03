@@ -202,33 +202,36 @@ class ActorEvents_12 extends ActorScript
 			{
 				if((((Engine.engine.getGameAttribute("Answered1") : Bool) == false) && ((Engine.engine.getGameAttribute("Answered2") : Bool) == false)))
 				{
-					if(((Engine.engine.getGameAttribute("PlateClick") : Bool) == true))
+					if(((Engine.engine.getGameAttribute("Correct_1") : Bool) == false))
 					{
-						if(((Engine.engine.getGameAttribute("QuestionMenuLv1") : Bool) == false))
+						if(((Engine.engine.getGameAttribute("PlateClick") : Bool) == true))
 						{
-							Engine.engine.setGameAttribute("QuestionMenuLv1", true);
-							actor.bringToFront();
-							actor.growTo(100/100, 100/100, 0, Easing.linear);
-							actor.clearFilters();
-							actor.moveTo(30, 100, 0.5, Easing.linear);
-							createRecycledActor(getActorType(9), 0, 0, Script.MIDDLE);
-							getLastCreatedActor().alpha = 10 / 100;
-							runLater(1000 * 1, function(timeTask:TimedTask):Void
+							if(((Engine.engine.getGameAttribute("QuestionMenuLv1") : Bool) == false))
 							{
-								createRecycledActor(getActorType(14), 800, 50, Script.FRONT);
-								runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+								Engine.engine.setGameAttribute("QuestionMenuLv1", true);
+								actor.bringToFront();
+								actor.growTo(100/100, 100/100, 0, Easing.linear);
+								actor.clearFilters();
+								actor.moveTo(30, 100, 0.5, Easing.linear);
+								createRecycledActor(getActorType(9), 0, 0, Script.MIDDLE);
+								getLastCreatedActor().alpha = 10 / 100;
+								runLater(1000 * 1, function(timeTask:TimedTask):Void
 								{
-									createRecycledActor(getActorType(26), 800, 150, Script.FRONT);
+									createRecycledActor(getActorType(14), 800, 50, Script.FRONT);
 									runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 									{
-										createRecycledActor(getActorType(28), 800, 250, Script.FRONT);
+										createRecycledActor(getActorType(26), 800, 150, Script.FRONT);
 										runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 										{
-											createRecycledActor(getActorType(24), 800, 350, Script.FRONT);
+											createRecycledActor(getActorType(28), 800, 250, Script.FRONT);
+											runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+											{
+												createRecycledActor(getActorType(24), 800, 350, Script.FRONT);
+											}, actor);
 										}, actor);
 									}, actor);
 								}, actor);
-							}, actor);
+							}
 						}
 					}
 				}
