@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game accelFramerate="0" adsPosition="0" androidMinVersion="9" androidTargetVersion="17" antialias="true" appType="0" atlasBindingDefault="false" author="" authorURL="" autoRotate="false" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="false" borderColor="-12303292" borderThickness="2" checksum="none" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" defaultFramerate="60" defaultProjectScale="4x" defaultSceneID="2" desc="" desktopScale="1x" disableBackButton="false" enableGPG="false" enablePurchases="false" forceHiResAssets="true" format="4.0.1" gameid="-1" googleAppID="" haxeExtras="" height="480" iosLaunchBackground="-16777216" iosLaunchScaleMode="0" kit="false" lockURL="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" multitouch="true" name="DiningTable" openflExtras="" orientation="0" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="0.0" simulatorTargetOS="0.0" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" telemetry="false" testAds="false" webScale="1x" width="640">
+<game accelFramerate="0" adsPosition="0" androidMinVersion="9" androidTargetVersion="17" antialias="true" appType="0" atlasBindingDefault="false" author="" authorURL="" autoRotate="false" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="false" borderColor="-12303292" borderThickness="2" checksum="none" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" defaultFramerate="60" defaultProjectScale="4x" defaultSceneID="4" desc="" desktopScale="1x" disableBackButton="false" enableGPG="false" enablePurchases="false" forceHiResAssets="true" format="4.0.1" gameid="-1" googleAppID="" haxeExtras="" height="500" iosLaunchBackground="-16777216" iosLaunchScaleMode="0" kit="false" lockURL="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" multitouch="true" name="DiningTable" openflExtras="" orientation="0" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="0.0" simulatorTargetOS="0.0" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" telemetry="false" testAds="false" webScale="1x" width="1000">
     <keys androidAlias="" androidCert="" androidPassword="" androidPublicKey="" cpmID="" iosTeamID="" ioswhirlKey="" ioswhirlKey1="" ngID="" ngKey="" p12="" p12pwd="" prov-adhoc="" prov-store="" whirlKey="" whirlKey1=""/>
     <exts/>
     <bundles>
-        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="My Game" store="Windows Store" version="1.0.0"/>
+        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0.0"/>
         <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0.0"/>
         <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="Mac App Store" version="1.0.0"/>
-        <bundle id="com.yourcompany.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0.0"/>
+        <bundle author="" id="com.yourcompany.gamename" internalVersion="1" metroColor="-12566464" name="My Game" store="Windows Store" version="1.0.0"/>
     </bundles>
     <scales>
         <scale detailed="1x" id="0" name="1x" size="1.0"/>
@@ -54,9 +54,11 @@
         <group desc="Food, silverware, and other items that proc questions" id="0" name="Items" type="actortype">
             <r id="0"/>
             <r id="32"/>
+            <r id="64"/>
             <r id="54"/>
             <r id="12"/>
             <r id="44"/>
+            <r id="76"/>
         </group>
         <group desc="" id="1" name="SampleLevelQuestionMenu" type="actortype">
             <r id="2"/>
@@ -64,14 +66,21 @@
             <r id="6"/>
         </group>
         <group desc="" id="2" name="L1QuestionData" type="actortype">
+            <r id="66"/>
             <r id="36"/>
+            <r id="68"/>
             <r id="38"/>
+            <r id="70"/>
             <r id="40"/>
+            <r id="72"/>
             <r id="42"/>
             <r id="14"/>
             <r id="46"/>
+            <r id="78"/>
             <r id="48"/>
+            <r id="80"/>
             <r id="50"/>
+            <r id="82"/>
             <r id="52"/>
             <r id="24"/>
             <r id="56"/>
@@ -80,6 +89,18 @@
             <r id="28"/>
             <r id="60"/>
             <r id="62"/>
+        </group>
+        <group desc="Dummy actors and tutorial texts" id="3" name="Tutorial Actors" type="actortype">
+            <r id="96"/>
+            <r id="98"/>
+            <r id="84"/>
+            <r id="100"/>
+            <r id="86"/>
+            <r id="102"/>
+            <r id="88"/>
+            <r id="90"/>
+            <r id="92"/>
+            <r id="94"/>
         </group>
     </folders>
     <packs/>
@@ -105,26 +126,35 @@
     <attributes>
         <boolean cid="-1" id="12" name="PlateClick" save="true" value="true"/>
         <boolean cid="-1" id="4" name="SampleQuestionMenu" save="true" value="false"/>
+        <boolean cid="-1" id="22" name="Answered11" save="true" value="false"/>
+        <boolean cid="-1" id="20" name="Answered10" save="true" value="false"/>
+        <boolean cid="-1" id="26" name="Answered13" save="true" value="false"/>
+        <boolean cid="-1" id="23" name="Answered12" save="true" value="false"/>
+        <boolean cid="-1" id="29" name="Correct_5" save="true" value="false"/>
+        <boolean cid="-1" id="33" name="Correct_6" save="true" value="false"/>
+        <boolean cid="-1" id="3" name="Question" save="true" value="false"/>
+        <number cid="-1" id="5" name="RandomQuestionValue" save="true" value="0.0"/>
+        <boolean cid="-1" id="25" name="PlateHoverCheck" save="true" value="false"/>
         <boolean cid="-1" id="8" name="Correct_1" save="true" value="false"/>
         <boolean cid="-1" id="10" name="Correct_2" save="true" value="false"/>
         <boolean cid="-1" id="11" name="Correct_3" save="true" value="false"/>
         <boolean cid="-1" id="24" name="Correct_4" save="true" value="false"/>
+        <boolean cid="-1" id="28" name="Answered15" save="true" value="false"/>
+        <boolean cid="-1" id="27" name="Answered14" save="true" value="false"/>
+        <boolean cid="-1" id="31" name="Answered17" save="true" value="false"/>
+        <boolean cid="-1" id="30" name="Answered16" save="true" value="false"/>
+        <boolean cid="-1" id="32" name="Answered18" save="true" value="false"/>
         <number cid="-1" id="0" name="Score" save="true" value="0.0"/>
         <boolean cid="-1" id="13" name="Answered4" save="true" value="false"/>
-        <boolean cid="-1" id="22" name="Answered11" save="true" value="false"/>
         <boolean cid="-1" id="9" name="Answered3" save="true" value="false"/>
-        <boolean cid="-1" id="20" name="Answered10" save="true" value="false"/>
         <boolean cid="-1" id="2" name="Answered2" save="true" value="false"/>
         <boolean cid="-1" id="6" name="QuestionMenuLv1" save="true" value="false"/>
         <boolean cid="-1" id="1" name="Answered1" save="true" value="false"/>
-        <boolean cid="-1" id="23" name="Answered12" save="true" value="false"/>
         <boolean cid="-1" id="18" name="Answered8" save="true" value="false"/>
         <boolean cid="-1" id="16" name="Answered7" save="true" value="false"/>
-        <boolean cid="-1" id="3" name="Question" save="true" value="false"/>
-        <number cid="-1" id="5" name="RandomQuestionValue" save="true" value="0.0"/>
         <boolean cid="-1" id="17" name="Answered6" save="true" value="false"/>
         <boolean cid="-1" id="14" name="Answered5" save="true" value="false"/>
-        <boolean cid="-1" id="25" name="PlateHoverCheck" save="true" value="false"/>
+        <number cid="-1" id="34" name="TUTORIAL_Count" save="true" value="0.0"/>
         <boolean cid="-1" id="21" name="Answered9" save="true" value="false"/>
     </attributes>
     <collisions>
@@ -156,7 +186,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,6,8,9,11,12,14,24,26,28,32,36,38,40,42,44,46,48,50,52,54,56,58,60,62," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,6,8,9,11,12,14,24,26,28,32,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,76,78,80,82,84,86,88,90,92,94,96,98,100,102," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

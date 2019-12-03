@@ -3,4 +3,6 @@
     <scene desc="" format="4.0.1" id="0" name="Practice_Scene"/>
     <scene desc="" format="4.0.1" id="1" name="Practice_Finished"/>
     <scene desc="" format="4.0.1" id="2" name="Level_1"/>
+    <scene desc="" format="4.0.1" id="3" name="Level_01_H"/>
+    <scene desc="" format="4.0.1" id="4" name="TUTORIAL"/>
 </scenes>

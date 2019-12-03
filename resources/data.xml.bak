@@ -6,16 +6,34 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="45" name="Brussels_Lv1" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="40" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="20" sync="false" version="2" width="60"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="47" fixedrot="false" fric="0.2" gid="3" id="92" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Brussels_TUTORIAL" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="93" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="93" name="Brussels_TUTORIAL" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="40" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="20" sync="false" version="2" width="60"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="17" fixedrot="false" fric="0.2" gid="3" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Fork_Lv1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="33" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="33" name="Fork_Lv1" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="250" id="0" loop="true" name="Animation 0" numframes="1" originx="125" originy="125" sync="false" version="2" width="250"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="48" fixedrot="false" fric="0.2" gid="3" id="94" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Fork_TUTORIAL" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="95" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="95" name="Fork_TUTORIAL" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="250" id="0" loop="true" name="Animation 0" numframes="1" originx="125" originy="125" sync="false" version="2" width="250"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="54" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Kiwi_Lv1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="55" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="55" name="Kiwi_Lv1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="41" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="20" sync="false" version="2" width="61"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="49" fixedrot="false" fric="0.2" gid="3" id="96" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Kiwi_TUTORIAL" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="97" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="97" name="Kiwi_TUTORIAL" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="41" id="0" loop="true" name="Animation 0" numframes="1" originx="30" originy="20" sync="false" version="2" width="61"/>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="3" id="14" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1Q1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="15" static="false">
@@ -146,11 +164,73 @@
             <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="56" id="11" name="Level 1" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="189" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="33" fixedrot="false" fric="0.2" gid="3" id="66" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1Q5" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="67" name="L1Q5" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="34" fixedrot="true" fric="0.2" gid="3" id="68" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1Q5a1_I" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="69" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="69" name="L1Q5a1_I" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="3" id="70" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1Q5a2_C" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="71" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="71" name="L1Q5a2_C" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="36" fixedrot="true" fric="0.2" gid="3" id="72" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1Q5a3_I" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="73" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="73" name="L1Q5a3_I" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="39" fixedrot="false" fric="0.2" gid="3" id="78" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1UQ_Q5a1_C" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="79" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="79" name="L1UQ_Q5a1_C" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="3" id="80" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1UQ_Q5a2_I" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="81" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="81" name="L1UQ_Q5a2_I" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="41" fixedrot="true" fric="0.2" gid="3" id="82" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="L1UQ_Q5a3_I" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="83" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="83" name="L1UQ_Q5a3_I" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="94" originy="28" sync="false" version="2" width="189">
+            <poly data="4,0,0,189,0,189,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="420" id="11" name="Level 1" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1000" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="9" fixedrot="false" fric="0.2" gid="3" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Plate_Lv1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="13" name="Plate_Lv1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="300" id="0" loop="true" name="Animation 0" numframes="1" originx="150" originy="150" sync="false" version="2" width="300"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="50" fixedrot="false" fric="0.2" gid="3" id="98" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Plate_TUTORIAL" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="99" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="99" name="Plate_TUTORIAL" readable="false" shared="false">
         <anim across="1" down="1" durations="100" height="300" id="0" loop="true" name="Animation 0" numframes="1" originx="150" originy="150" sync="false" version="2" width="300"/>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="SampleAnswer1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
@@ -182,6 +262,66 @@
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="10" name="ScoreUI" readable="false" shared="false">
-        <anim across="1" down="1" durations="100" height="56" id="0" loop="true" name="Animation 0" numframes="1" originx="0" originy="0" sync="false" version="2" width="189"/>
+        <anim across="1" down="1" durations="100" height="420" id="0" loop="true" name="Animation 0" numframes="1" originx="0" originy="0" sync="false" version="2" width="1000"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="false" fric="0.2" gid="3" id="64" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Swiss_Lv1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="65" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="65" name="Swiss_Lv1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="51" fixedrot="false" fric="0.2" gid="3" id="100" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Swiss_TUTORIAL" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="101" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="101" name="Swiss_TUTORIAL" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="52" fixedrot="false" fric="0.2" gid="3" id="102" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="TUTORIAL_Begin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="103" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="103" name="TUTORIAL_Begin" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="224" id="0" loop="true" name="Animation 0" numframes="1" originx="378" originy="112" sync="false" version="2" width="756">
+            <poly data="4,0,0,756,0,756,224,0,224" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="44" fixedrot="false" fric="0.2" gid="3" id="88" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="TUTORIAL_Blackbar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="89" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="89" name="TUTORIAL_Blackbar" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="224" id="0" loop="true" name="Animation 0" numframes="1" originx="378" originy="112" sync="false" version="2" width="756">
+            <poly data="4,0,0,756,0,756,224,0,224" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="42" fixedrot="false" fric="0.2" gid="3" id="84" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="TUTORIAL_Fork" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="85" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="85" name="TUTORIAL_Fork" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="224" id="0" loop="true" name="Animation 0" numframes="1" originx="378" originy="112" sync="false" version="2" width="756">
+            <poly data="4,0,0,756,0,756,224,0,224" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="43" fixedrot="false" fric="0.2" gid="3" id="86" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="TUTORIAL_Introduction" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="87" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="87" name="TUTORIAL_Introduction" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="224" id="0" loop="true" name="Animation 0" numframes="1" originx="378" originy="112" sync="false" version="2" width="756">
+            <poly data="4,0,0,756,0,756,224,0,224" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="45" fixedrot="false" fric="0.2" gid="3" id="90" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="TUTORIAL_Scorecap" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="91" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="91" name="TUTORIAL_Scorecap" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="224" id="0" loop="true" name="Animation 0" numframes="1" originx="378" originy="112" sync="false" version="2" width="756">
+            <poly data="4,0,0,756,0,756,224,0,224" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="3" id="76" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="UQuestion_Lv1_1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="77" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="77" name="UQuestion_Lv1_1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="35" id="0" loop="true" name="Animation 0" numframes="1" originx="81" originy="17" sync="false" version="2" width="162">
+            <poly data="4,0,0,162,0,162,35,0,35" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
     </sprite>
 </pack>

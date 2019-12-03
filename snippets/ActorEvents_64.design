@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="77">
+                            <group eventID="1" id="-1">
+                                <if comment="false" x="48" y="107">
+                                    <group eventID="1" id="-1">
+                                        <set-game-val-12 comment="false" x="59" y="137">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-12>
+                                        <scaleTo comment="false" x="59" y="162">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="90"/>
+                                            <int id="2" val="90"/>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <apply-filter comment="false" x="59" y="189">
+                                            <ACTOR eid="this" id="0"/>
+                                            <filter-tint comment="false" id="1" x="0" y="0">
+                                                <color b="51" g="255" id="0" r="255"/>
+                                                <int id="1" val="50"/>
+                                            </filter-tint>
+                                        </apply-filter>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-29 comment="false" id="0" x="0" y="0"/>
+                                        <false comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                                <false comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-28 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="37" y="77">
+                            <group eventID="2" id="-1">
+                                <if comment="false" x="48" y="107">
+                                    <group eventID="2" id="-1">
+                                        <set-game-val-12 comment="false" x="59" y="137">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-12>
+                                        <set-game-val-25 comment="false" x="59" y="162">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-25>
+                                        <scaleTo comment="false" x="59" y="187">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="80"/>
+                                            <int id="2" val="80"/>
+                                            <int id="3" val="0"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <clear-filter comment="false" x="59" y="214">
+                                            <ACTOR eid="this" id="0"/>
+                                        </clear-filter>
+                                    </group>
+                                    <eq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-29 comment="false" id="0" x="0" y="0"/>
+                                        <false comment="false" id="1" x="0" y="0"/>
+                                    </eq>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                                <false comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-28 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="7" id="-1">
+                        <if comment="false" x="37" y="70">
+                            <group eventID="3" id="-1">
+                                <set-game-val-6 comment="false" x="48" y="100">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-6>
+                                <dolater comment="false" x="48" y="125">
+                                    <group eventID="3" id="-1">
+                                        <backforward comment="false" x="59" y="152">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </backforward>
+                                        <moveToBy comment="false" x="59" y="179">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <int id="2" val="550"/>
+                                            <int id="3" val="250"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="0"/>
+                                        </moveToBy>
+                                        <scaleTo comment="false" x="59" y="206">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="80"/>
+                                            <int id="2" val="80"/>
+                                            <int id="3" val="0.5"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <set-game-val-26 comment="false" x="59" y="233">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-26>
+                                    </group>
+                                    <int id="0" val="2"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <else-if comment="false" x="37" y="282">
+                            <group eventID="3" id="-1">
+                                <set-game-val-6 comment="false" x="48" y="312">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-6>
+                                <set-game-val-29 comment="false" x="48" y="337">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-29>
+                                <dolater comment="false" x="48" y="362">
+                                    <group eventID="3" id="-1">
+                                        <die comment="false" x="59" y="389">
+                                            <ACTOR eid="this" id="0"/>
+                                        </die>
+                                        <set-game-val-27 comment="false" x="59" y="416">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-27>
+                                        <set-game-val-12 comment="false" x="59" y="441">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-12>
+                                    </group>
+                                    <int id="0" val="2"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-27 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="37" y="490">
+                            <group eventID="3" id="-1">
+                                <set-game-val-6 comment="false" x="48" y="520">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-6>
+                                <dolater comment="false" x="48" y="545">
+                                    <group eventID="3" id="-1">
+                                        <backforward comment="false" x="59" y="572">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </backforward>
+                                        <moveToBy comment="false" x="59" y="599">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                            <int id="2" val="550"/>
+                                            <int id="3" val="250"/>
+                                            <int id="4" val="0.5"/>
+                                            <int id="5" val="0"/>
+                                        </moveToBy>
+                                        <scaleTo comment="false" x="59" y="626">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="80"/>
+                                            <int id="2" val="80"/>
+                                            <int id="3" val="0.5"/>
+                                            <int id="4" val="0"/>
+                                        </scaleTo>
+                                        <set-game-val-28 comment="false" x="59" y="653">
+                                            <false comment="false" id="0" x="0" y="0"/>
+                                        </set-game-val-28>
+                                    </group>
+                                    <int id="0" val="2"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-28 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </else-if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="43" y="18">
+            <group eventID="3" id="-1">
+                <if comment="false" x="54" y="45">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="65" y="80">
+                            <group eventID="3" id="-1">
+                                <set-game-val-6 comment="false" x="76" y="110">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-6>
+                                <backforward comment="false" x="76" y="135">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </backforward>
+                                <scaleTo comment="false" x="76" y="162">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="200"/>
+                                    <int id="2" val="200"/>
+                                    <int id="3" val="0.5"/>
+                                    <int id="4" val="0"/>
+                                </scaleTo>
+                                <clear-filter comment="false" x="76" y="189">
+                                    <ACTOR eid="this" id="0"/>
+                                </clear-filter>
+                                <moveToBy comment="false" x="76" y="216">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="30"/>
+                                    <int id="3" val="100"/>
+                                    <int id="4" val="0.5"/>
+                                    <int id="5" val="0"/>
+                                </moveToBy>
+                                <create-actor3 comment="false" x="76" y="243">
+                                    <actortype eid="9" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                    <int id="3" val="1"/>
+                                </create-actor3>
+                                <set-opacity comment="false" x="76" y="270">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="10"/>
+                                </set-opacity>
+                                <dolater comment="false" x="76" y="297">
+                                    <group eventID="4" id="-1">
+                                        <create-actor3 comment="false" x="87" y="324">
+                                            <actortype eid="66" id="0"/>
+                                            <int id="1" val="800"/>
+                                            <int id="2" val="50"/>
+                                            <int id="3" val="0"/>
+                                        </create-actor3>
+                                        <dolater comment="false" x="87" y="351">
+                                            <group eventID="4" id="-1">
+                                                <create-actor3 comment="false" x="98" y="378">
+                                                    <actortype eid="68" id="0"/>
+                                                    <int id="1" val="800"/>
+                                                    <int id="2" val="150"/>
+                                                    <int id="3" val="0"/>
+                                                </create-actor3>
+                                                <dolater comment="false" x="98" y="405">
+                                                    <group eventID="4" id="-1">
+                                                        <create-actor3 comment="false" x="109" y="432">
+                                                            <actortype eid="70" id="0"/>
+                                                            <int id="1" val="800"/>
+                                                            <int id="2" val="250"/>
+                                                            <int id="3" val="0"/>
+                                                        </create-actor3>
+                                                        <dolater comment="false" x="109" y="459">
+                                                            <group eventID="4" id="-1">
+                                                                <create-actor3 comment="false" x="120" y="486">
+                                                                    <actortype eid="72" id="0"/>
+                                                                    <int id="1" val="800"/>
+                                                                    <int id="2" val="350"/>
+                                                                    <int id="3" val="0"/>
+                                                                </create-actor3>
+                                                            </group>
+                                                            <int id="0" val="0.5"/>
+                                                            <ACTOR eid="this" id="2"/>
+                                                        </dolater>
+                                                    </group>
+                                                    <int id="0" val="0.5"/>
+                                                    <ACTOR eid="this" id="2"/>
+                                                </dolater>
+                                            </group>
+                                            <int id="0" val="0.5"/>
+                                            <ACTOR eid="lastcreated" id="2"/>
+                                        </dolater>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="lastcreated" id="2"/>
+                                </dolater>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                                <false comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-26 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-28 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

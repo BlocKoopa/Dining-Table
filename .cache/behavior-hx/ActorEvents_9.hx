@@ -74,6 +74,18 @@ class ActorEvents_9 extends ActorScript
 	override public function init()
 	{
 		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if(((Engine.engine.getGameAttribute("QuestionMenuLv1") : Bool) == false))
+				{
+					recycleActor(actor);
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)
