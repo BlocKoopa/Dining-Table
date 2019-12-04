@@ -43,7 +43,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import com.stencyl.graphics.shaders.BasicShader;
 import com.stencyl.graphics.shaders.GrayscaleShader;
@@ -62,46 +61,44 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class ActorEvents_113 extends ActorScript
 {
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("RandomQuestionValue", randomInt(1, 3));
-		runLater(1000 * 1, function(timeTask:TimedTask):Void
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
-			createRecycledActor(getActorType(12), 400, 130, Script.BACK);
-			getLastCreatedActor().growTo(40/100, 40/100, 0, Easing.linear);
-			createRecycledActor(getActorType(32), 325, 150, Script.BACK);
-			getLastCreatedActor().growTo(40/100, 40/100, 0, Easing.linear);
-			createRecycledActor(getActorType(44), 490, 235, Script.MIDDLE);
-			getLastCreatedActor().growTo(80/100, 80/100, 0, Easing.linear);
-			createRecycledActor(getActorType(64), 550, 250, Script.MIDDLE);
-			getLastCreatedActor().growTo(80/100, 80/100, 0, Easing.linear);
-			createRecycledActor(getActorType(54), 495, 285, Script.MIDDLE);
-			getLastCreatedActor().growTo(80/100, 80/100, 0, Easing.linear);
-			createRecycledActor(getActorType(76), 475, 372, Script.MIDDLE);
-			getLastCreatedActor().growTo(100/100, 100/100, 0, Easing.linear);
-		}, null);
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && 1 == mouseState)
 			{
-				g.setFont(getFont(8));
-				g.drawString("" + "Score:", 750, 20);
-				g.drawString("" + (Engine.engine.getGameAttribute("Score") : Float), 800, 20);
-				Script.setDrawingLayerToActorLayer(getActor(1));
+				actor.growTo(110/100, 110/100, 0, Easing.linear);
+			}
+		});
+		
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && -1 == mouseState)
+			{
+				actor.growTo(100/100, 100/100, 0, Easing.linear);
+			}
+		});
+		
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && 3 == mouseState)
+			{
+				actor.setFilter([createTintFilter(Utils.getColorRGB(255,51,51), 75/100)]);
+				Engine.engine.setGameAttribute("Answered19", true);
 			}
 		});
 		
@@ -110,13 +107,20 @@ class SceneEvents_3 extends SceneScript
 		{
 			if(wrapper.enabled)
 			{
-				if(((Engine.engine.getGameAttribute("Score") : Float) >= 8))
+				if(((Engine.engine.getGameAttribute("Answered19") : Bool) == true))
 				{
-					runLater(1000 * 2.5, function(timeTask:TimedTask):Void
+					runLater(1000 * 2, function(timeTask:TimedTask):Void
 					{
-						switchScene(GameModel.get().scenes.get(1).getID(), null, createCrossfadeTransition(0));
-						Engine.engine.setGameAttribute("Score", 0);
-					}, null);
+						recycleActor(actor);
+					}, actor);
+				}
+				else if(((Engine.engine.getGameAttribute("Answered20") : Bool) == true))
+				{
+					recycleActor(actor);
+				}
+				else if(((Engine.engine.getGameAttribute("Answered21") : Bool) == true))
+				{
+					recycleActor(actor);
 				}
 			}
 		});

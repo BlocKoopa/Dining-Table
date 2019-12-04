@@ -74,28 +74,54 @@
                     <int id="3" val="0"/>
                     <int id="4" val="0"/>
                 </scaleTo>
-                <set-game-val-6 comment="false" x="26" y="335">
+                <create-actor3 comment="false" x="26" y="335">
+                    <actortype eid="105" id="0"/>
+                    <int id="1" val="620"/>
+                    <int id="2" val="185"/>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <scaleTo comment="false" x="26" y="362">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="110"/>
+                    <int id="2" val="110"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <create-actor3 comment="false" x="26" y="389">
+                    <actortype eid="129" id="0"/>
+                    <int id="1" val="183"/>
+                    <int id="2" val="90"/>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <scaleTo comment="false" x="26" y="416">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="100"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-game-val-6 comment="false" x="26" y="443">
                     <true comment="false" id="0" x="0" y="0"/>
                 </set-game-val-6>
-                <dolater comment="false" x="26" y="360">
+                <dolater comment="false" x="26" y="468">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="387">
+                        <create-actor3 comment="false" x="37" y="495">
                             <actortype eid="9" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                         </create-actor3>
-                        <set-opacity comment="false" x="37" y="414">
+                        <set-opacity comment="false" x="37" y="522">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="50"/>
                         </set-opacity>
-                        <create-actor3 comment="false" x="37" y="441">
+                        <create-actor3 comment="false" x="37" y="549">
                             <actortype eid="86" id="0"/>
                             <int id="1" val="150"/>
                             <int id="2" val="100"/>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <scaleTo comment="false" x="37" y="468">
+                        <scaleTo comment="false" x="37" y="576">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="80"/>
                             <int id="2" val="80"/>

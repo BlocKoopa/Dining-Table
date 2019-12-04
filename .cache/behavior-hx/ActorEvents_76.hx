@@ -167,16 +167,16 @@ class ActorEvents_76 extends ActorScript
 						getLastCreatedActor().alpha = 10 / 100;
 						runLater(1000 * 1, function(timeTask:TimedTask):Void
 						{
-							createRecycledActor(getActorType(66), 800, 50, Script.FRONT);
+							createRecycledActor(getActorType(109), 800, 50, Script.FRONT);
 							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 							{
-								createRecycledActor(getActorType(68), 800, 150, Script.FRONT);
+								createRecycledActor(getActorType(78), 800, 150, Script.FRONT);
 								runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 								{
-									createRecycledActor(getActorType(70), 800, 250, Script.FRONT);
+									createRecycledActor(getActorType(80), 800, 250, Script.FRONT);
 									runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 									{
-										createRecycledActor(getActorType(72), 800, 350, Script.FRONT);
+										createRecycledActor(getActorType(82), 800, 350, Script.FRONT);
 									}, actor);
 								}, actor);
 							}, actor);

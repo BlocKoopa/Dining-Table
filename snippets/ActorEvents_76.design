@@ -52,7 +52,7 @@
             <int id="1" val="0"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="1" id="5">
+    <group eventID="1" id="1">
         <set-game-val-12 comment="false" x="294" y="353">
             <false comment="false" id="0" x="0" y="0"/>
         </set-game-val-12>
@@ -106,7 +106,7 @@
             <int id="1" val="1"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="2" id="2">
+    <group eventID="2" id="1">
         <set-game-val-12 comment="false" x="133" y="473">
             <true comment="false" id="0" x="0" y="0"/>
         </set-game-val-12>
@@ -234,7 +234,7 @@
                                 <dolater comment="false" x="76" y="243">
                                     <group eventID="4" id="-1">
                                         <create-actor3 comment="false" x="87" y="270">
-                                            <actortype eid="66" id="0"/>
+                                            <actortype eid="109" id="0"/>
                                             <int id="1" val="800"/>
                                             <int id="2" val="50"/>
                                             <int id="3" val="0"/>
@@ -242,7 +242,7 @@
                                         <dolater comment="false" x="87" y="297">
                                             <group eventID="4" id="-1">
                                                 <create-actor3 comment="false" x="98" y="324">
-                                                    <actortype eid="68" id="0"/>
+                                                    <actortype eid="78" id="0"/>
                                                     <int id="1" val="800"/>
                                                     <int id="2" val="150"/>
                                                     <int id="3" val="0"/>
@@ -250,7 +250,7 @@
                                                 <dolater comment="false" x="98" y="351">
                                                     <group eventID="4" id="-1">
                                                         <create-actor3 comment="false" x="109" y="378">
-                                                            <actortype eid="70" id="0"/>
+                                                            <actortype eid="80" id="0"/>
                                                             <int id="1" val="800"/>
                                                             <int id="2" val="250"/>
                                                             <int id="3" val="0"/>
@@ -258,7 +258,7 @@
                                                         <dolater comment="false" x="109" y="405">
                                                             <group eventID="4" id="-1">
                                                                 <create-actor3 comment="false" x="120" y="432">
-                                                                    <actortype eid="72" id="0"/>
+                                                                    <actortype eid="82" id="0"/>
                                                                     <int id="1" val="800"/>
                                                                     <int id="2" val="350"/>
                                                                     <int id="3" val="0"/>

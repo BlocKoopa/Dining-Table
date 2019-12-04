@@ -89,6 +89,32 @@
                             <int id="3" val="0"/>
                             <int id="4" val="0"/>
                         </scaleTo>
+                        <create-actor3 comment="false" x="37" y="416">
+                            <actortype eid="107" id="0"/>
+                            <int id="1" val="620"/>
+                            <int id="2" val="185"/>
+                            <int id="3" val="1"/>
+                        </create-actor3>
+                        <scaleTo comment="false" x="37" y="443">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="110"/>
+                            <int id="2" val="110"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
+                        <create-actor3 comment="false" x="37" y="470">
+                            <actortype eid="119" id="0"/>
+                            <int id="1" val="183"/>
+                            <int id="2" val="90"/>
+                            <int id="3" val="1"/>
+                        </create-actor3>
+                        <scaleTo comment="false" x="37" y="497">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="100"/>
+                            <int id="2" val="100"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="0"/>
+                        </scaleTo>
                     </group>
                     <int id="0" val="1"/>
                     <ACTOR eid="lastcreated" id="2"/>

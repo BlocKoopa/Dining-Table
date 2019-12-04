@@ -376,4 +376,102 @@
             <event displayName="Click" enabled="false" id="1" name="event-mouse-press-release" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet actorid="64" attachedevent="true" class="scripts.ActorEvents_105" classname="scripts.ActorEvents_105" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="53" name="ActorEvents_105" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="32" attachedevent="true" class="scripts.ActorEvents_107" classname="scripts.ActorEvents_107" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="54" name="ActorEvents_107" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="false"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="66" attachedevent="true" class="scripts.ActorEvents_109" classname="scripts.ActorEvents_109" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="55" name="ActorEvents_109" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="36" attachedevent="true" class="scripts.ActorEvents_111" classname="scripts.ActorEvents_111" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="56" name="ActorEvents_111" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="38" attachedevent="true" class="scripts.ActorEvents_113" classname="scripts.ActorEvents_113" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="57" name="ActorEvents_113" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="5" name="step" order="5" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="42" attachedevent="true" class="scripts.ActorEvents_115" classname="scripts.ActorEvents_115" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="58" name="ActorEvents_115" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="3" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="3" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="4" name="step" order="5" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="40" attachedevent="true" class="scripts.ActorEvents_117" classname="scripts.ActorEvents_117" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="59" name="ActorEvents_117" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="false"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="32" attachedevent="true" class="scripts.ActorEvents_119" classname="scripts.ActorEvents_119" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="60" name="ActorEvents_119" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="36" attachedevent="true" class="scripts.ActorEvents_121" classname="scripts.ActorEvents_121" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="61" name="ActorEvents_121" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="38" attachedevent="true" class="scripts.ActorEvents_123" classname="scripts.ActorEvents_123" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="62" name="ActorEvents_123" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="5" name="step" order="5" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="42" attachedevent="true" class="scripts.ActorEvents_125" classname="scripts.ActorEvents_125" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="63" name="ActorEvents_125" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="3" repeats="false"/>
+            <event displayName="On Actor" enabled="true" id="3" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="4" name="step" order="5" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="40" attachedevent="true" class="scripts.ActorEvents_127" classname="scripts.ActorEvents_127" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="64" name="ActorEvents_127" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="On Actor" enabled="true" id="1" name="event-mouse-enter-exit-actor" order="1" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="2" name="event-mouse-enter-exit-actor" order="2" repeats="false"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="4" name="event-mouse-enter-exit-actor" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="12" attachedevent="true" class="scripts.ActorEvents_129" classname="scripts.ActorEvents_129" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="65" name="ActorEvents_129" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>
