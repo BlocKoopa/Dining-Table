@@ -152,13 +152,37 @@
                         <dolater comment="false" x="37" y="70">
                             <group eventID="5" id="-1">
                                 <scene-change-through comment="false" x="48" y="97">
-                                    <scene eid="1" id="0"/>
+                                    <scene eid="5" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="0"/>
                                 </scene-change-through>
                                 <set-game-val-0 comment="false" x="48" y="124">
                                     <int id="0" val="0"/>
                                 </set-game-val-0>
+                                <set-game-val-8 comment="false" x="48" y="144">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-8>
+                                <set-game-val-10 comment="false" x="48" y="169">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-10>
+                                <set-game-val-11 comment="false" x="48" y="194">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-11>
+                                <set-game-val-24 comment="false" x="48" y="219">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-24>
+                                <set-game-val-29 comment="false" x="48" y="244">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-29>
+                                <set-game-val-33 comment="false" x="48" y="269">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-33>
+                                <set-game-val-38 comment="false" x="48" y="294">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-38>
+                                <set-game-val-42 comment="false" x="48" y="319">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-42>
                             </group>
                             <int id="0" val="2.5"/>
                             <ACTOR eid="lastcreated" id="2"/>

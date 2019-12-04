@@ -124,7 +124,6 @@ class ActorEvents_12 extends ActorScript
 				{
 					if(((Engine.engine.getGameAttribute("Answered1") : Bool) == true))
 					{
-						Engine.engine.setGameAttribute("QuestionMenuLv1", false);
 						runLater(1000 * 2, function(timeTask:TimedTask):Void
 						{
 							actor.sendToBack();
@@ -132,13 +131,13 @@ class ActorEvents_12 extends ActorScript
 							actor.growTo(40/100, 40/100, 0.5, Easing.linear);
 							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 							{
+								Engine.engine.setGameAttribute("QuestionMenuLv1", false);
 								Engine.engine.setGameAttribute("Answered1", false);
 							}, actor);
 						}, actor);
 					}
 					if(((Engine.engine.getGameAttribute("Answered2") : Bool) == true))
 					{
-						Engine.engine.setGameAttribute("QuestionMenuLv1", false);
 						runLater(1000 * 2, function(timeTask:TimedTask):Void
 						{
 							actor.sendToBack();
@@ -146,14 +145,13 @@ class ActorEvents_12 extends ActorScript
 							actor.growTo(40/100, 40/100, 0.5, Easing.linear);
 							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 							{
+								Engine.engine.setGameAttribute("QuestionMenuLv1", false);
 								Engine.engine.setGameAttribute("Answered2", false);
 							}, actor);
 						}, actor);
 					}
 					if(((Engine.engine.getGameAttribute("Answered3") : Bool) == true))
 					{
-						Engine.engine.setGameAttribute("QuestionMenuLv1", false);
-						Engine.engine.setGameAttribute("Correct_1", true);
 						runLater(1000 * 2, function(timeTask:TimedTask):Void
 						{
 							actor.sendToBack();
@@ -162,6 +160,8 @@ class ActorEvents_12 extends ActorScript
 							actor.growTo(40/100, 40/100, 0.5, Easing.linear);
 							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 							{
+								Engine.engine.setGameAttribute("QuestionMenuLv1", false);
+								Engine.engine.setGameAttribute("Correct_1", true);
 								Engine.engine.setGameAttribute("Answered3", false);
 							}, actor);
 						}, actor);

@@ -115,23 +115,20 @@
                     <group eventID="7" id="-1">
                         <if comment="false" x="37" y="70">
                             <group eventID="3" id="-1">
-                                <set-game-val-6 comment="false" x="48" y="100">
-                                    <false comment="false" id="0" x="0" y="0"/>
-                                </set-game-val-6>
-                                <dolater comment="false" x="48" y="125">
+                                <dolater comment="false" x="48" y="100">
                                     <group eventID="3" id="-1">
-                                        <backforward comment="false" x="59" y="152">
+                                        <backforward comment="false" x="59" y="127">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="2"/>
                                         </backforward>
-                                        <scaleTo comment="false" x="59" y="179">
+                                        <scaleTo comment="false" x="59" y="154">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="100"/>
                                             <int id="2" val="100"/>
                                             <int id="3" val="0.5"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
-                                        <moveToBy comment="false" x="59" y="206">
+                                        <moveToBy comment="false" x="59" y="181">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="1"/>
                                             <int id="2" val="123"/>
@@ -139,9 +136,18 @@
                                             <int id="4" val="0.5"/>
                                             <int id="5" val="0"/>
                                         </moveToBy>
-                                        <set-game-val-39 comment="false" x="59" y="233">
-                                            <false comment="false" id="0" x="0" y="0"/>
-                                        </set-game-val-39>
+                                        <dolater comment="false" x="59" y="208">
+                                            <group eventID="3" id="-1">
+                                                <set-game-val-6 comment="false" x="70" y="235">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-6>
+                                                <set-game-val-39 comment="false" x="70" y="260">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-39>
+                                            </group>
+                                            <int id="0" val="0.5"/>
+                                            <ACTOR eid="this" id="2"/>
+                                        </dolater>
                                     </group>
                                     <int id="0" val="2"/>
                                     <ACTOR eid="this" id="2"/>
@@ -152,32 +158,26 @@
                                 <true comment="false" id="1" x="0" y="0"/>
                             </eq>
                         </if>
-                        <else-if comment="false" x="37" y="282">
+                        <else-if comment="false" x="37" y="321">
                             <group eventID="3" id="-1">
-                                <set-game-val-6 comment="false" x="48" y="312">
-                                    <false comment="false" id="0" x="0" y="0"/>
-                                </set-game-val-6>
-                                <set-game-val-42 comment="false" x="48" y="337">
-                                    <true comment="false" id="0" x="0" y="0"/>
-                                </set-game-val-42>
-                                <dolater comment="false" x="48" y="362">
+                                <dolater comment="false" x="48" y="351">
                                     <group eventID="3" id="-1">
-                                        <backforward comment="false" x="59" y="389">
+                                        <backforward comment="false" x="59" y="378">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="2"/>
                                         </backforward>
-                                        <set-opacity comment="false" x="59" y="416">
+                                        <set-opacity comment="false" x="59" y="405">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="50"/>
                                         </set-opacity>
-                                        <scaleTo comment="false" x="59" y="443">
+                                        <scaleTo comment="false" x="59" y="432">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="100"/>
                                             <int id="2" val="100"/>
                                             <int id="3" val="0.5"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
-                                        <moveToBy comment="false" x="59" y="470">
+                                        <moveToBy comment="false" x="59" y="459">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="1"/>
                                             <int id="2" val="123"/>
@@ -185,9 +185,21 @@
                                             <int id="4" val="0.5"/>
                                             <int id="5" val="0"/>
                                         </moveToBy>
-                                        <set-game-val-40 comment="false" x="59" y="497">
-                                            <false comment="false" id="0" x="0" y="0"/>
-                                        </set-game-val-40>
+                                        <dolater comment="false" x="59" y="486">
+                                            <group eventID="3" id="-1">
+                                                <set-game-val-40 comment="false" x="70" y="513">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-40>
+                                                <set-game-val-6 comment="false" x="70" y="538">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-6>
+                                                <set-game-val-42 comment="false" x="70" y="563">
+                                                    <true comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-42>
+                                            </group>
+                                            <int id="0" val="0.5"/>
+                                            <ACTOR eid="this" id="2"/>
+                                        </dolater>
                                     </group>
                                     <int id="0" val="2"/>
                                     <ACTOR eid="this" id="2"/>
@@ -198,25 +210,22 @@
                                 <true comment="false" id="1" x="0" y="0"/>
                             </eq>
                         </else-if>
-                        <else-if comment="false" x="37" y="546">
+                        <else-if comment="false" x="37" y="624">
                             <group eventID="3" id="-1">
-                                <set-game-val-6 comment="false" x="48" y="576">
-                                    <false comment="false" id="0" x="0" y="0"/>
-                                </set-game-val-6>
-                                <dolater comment="false" x="48" y="601">
+                                <dolater comment="false" x="48" y="654">
                                     <group eventID="3" id="-1">
-                                        <backforward comment="false" x="59" y="628">
+                                        <backforward comment="false" x="59" y="681">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="2"/>
                                         </backforward>
-                                        <scaleTo comment="false" x="59" y="655">
+                                        <scaleTo comment="false" x="59" y="708">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="100"/>
                                             <int id="2" val="100"/>
                                             <int id="3" val="0.5"/>
                                             <int id="4" val="0"/>
                                         </scaleTo>
-                                        <moveToBy comment="false" x="59" y="682">
+                                        <moveToBy comment="false" x="59" y="735">
                                             <ACTOR eid="this" id="0"/>
                                             <int id="1" val="1"/>
                                             <int id="2" val="123"/>
@@ -224,9 +233,18 @@
                                             <int id="4" val="0.5"/>
                                             <int id="5" val="0"/>
                                         </moveToBy>
-                                        <set-game-val-41 comment="false" x="59" y="709">
-                                            <false comment="false" id="0" x="0" y="0"/>
-                                        </set-game-val-41>
+                                        <dolater comment="false" x="59" y="762">
+                                            <group eventID="3" id="-1">
+                                                <set-game-val-41 comment="false" x="70" y="789">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-41>
+                                                <set-game-val-6 comment="false" x="70" y="814">
+                                                    <false comment="false" id="0" x="0" y="0"/>
+                                                </set-game-val-6>
+                                            </group>
+                                            <int id="0" val="0.5"/>
+                                            <ACTOR eid="this" id="2"/>
+                                        </dolater>
                                     </group>
                                     <int id="0" val="2"/>
                                     <ACTOR eid="this" id="2"/>

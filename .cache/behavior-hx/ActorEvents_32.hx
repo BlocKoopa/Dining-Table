@@ -123,37 +123,46 @@ class ActorEvents_32 extends ActorScript
 				{
 					if(((Engine.engine.getGameAttribute("Answered4") : Bool) == true))
 					{
-						Engine.engine.setGameAttribute("QuestionMenuLv1", false);
 						runLater(1000 * 2, function(timeTask:TimedTask):Void
 						{
 							actor.sendToBack();
 							actor.growTo(40/100, 40/100, 0.5, Easing.linear);
 							actor.moveTo(325, 150, 0.5, Easing.linear);
-							Engine.engine.setGameAttribute("Answered4", false);
+							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+							{
+								Engine.engine.setGameAttribute("QuestionMenuLv1", false);
+								Engine.engine.setGameAttribute("Answered4", false);
+							}, actor);
 						}, actor);
 					}
 					else if(((Engine.engine.getGameAttribute("Answered5") : Bool) == true))
 					{
-						Engine.engine.setGameAttribute("QuestionMenuLv1", false);
-						Engine.engine.setGameAttribute("Correct_2", true);
 						runLater(1000 * 2, function(timeTask:TimedTask):Void
 						{
 							actor.sendToBack();
 							actor.alpha = 50 / 100;
 							actor.growTo(40/100, 40/100, 0.5, Easing.linear);
 							actor.moveTo(325, 150, 0.5, Easing.linear);
-							Engine.engine.setGameAttribute("Answered5", false);
+							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+							{
+								Engine.engine.setGameAttribute("QuestionMenuLv1", false);
+								Engine.engine.setGameAttribute("Correct_2", true);
+								Engine.engine.setGameAttribute("Answered5", false);
+							}, actor);
 						}, actor);
 					}
 					else if(((Engine.engine.getGameAttribute("Answered6") : Bool) == true))
 					{
-						Engine.engine.setGameAttribute("QuestionMenuLv1", false);
 						runLater(1000 * 2, function(timeTask:TimedTask):Void
 						{
 							actor.sendToBack();
 							actor.growTo(40/100, 40/100, 0.5, Easing.linear);
 							actor.moveTo(325, 150, 0.5, Easing.linear);
-							Engine.engine.setGameAttribute("Answered6", false);
+							runLater(1000 * 0.5, function(timeTask:TimedTask):Void
+							{
+								Engine.engine.setGameAttribute("QuestionMenuLv1", false);
+								Engine.engine.setGameAttribute("Answered6", false);
+							}, actor);
 						}, actor);
 					}
 				}
