@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <dolater comment="false" x="37" y="70">
+                            <group eventID="1" id="-1">
+                                <die comment="false" x="48" y="97">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val="2"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-35 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="148">
+                    <group eventID="1" id="-1">
+                        <dolater comment="false" x="37" y="178">
+                            <group eventID="1" id="-1">
+                                <die comment="false" x="48" y="205">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val="2"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-36 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="256">
+                    <group eventID="1" id="-1">
+                        <dolater comment="false" x="37" y="286">
+                            <group eventID="1" id="-1">
+                                <die comment="false" x="48" y="313">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val="2"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-37 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </else-if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

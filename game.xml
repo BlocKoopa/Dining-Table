@@ -51,7 +51,7 @@
         <scale enabled="true" name="4x"/>
     </androidScales>
     <folders>
-        <group desc="Food, silverware, and other items that proc questions" id="0" name="Items" type="actortype">
+        <group desc="Food, silverware, and other items that proc questions" id="0" name="Items_Lv1" type="actortype">
             <r id="0"/>
             <r id="32"/>
             <r id="64"/>
@@ -115,6 +115,51 @@
             <r id="92"/>
             <r id="94"/>
         </group>
+        <group desc="" id="4" name="Items_Lv2" type="actortype">
+            <r id="161"/>
+            <r id="149"/>
+            <r id="181"/>
+            <r id="213"/>
+            <r id="151"/>
+            <r id="201"/>
+            <r id="171"/>
+            <r id="139"/>
+            <r id="191"/>
+        </group>
+        <group desc="" id="5" name="L2QuestionData" type="actortype">
+            <r id="193"/>
+            <r id="195"/>
+            <r id="197"/>
+            <r id="199"/>
+            <r id="203"/>
+            <r id="141"/>
+            <r id="205"/>
+            <r id="143"/>
+            <r id="207"/>
+            <r id="145"/>
+            <r id="209"/>
+            <r id="147"/>
+            <r id="215"/>
+            <r id="153"/>
+            <r id="217"/>
+            <r id="155"/>
+            <r id="219"/>
+            <r id="157"/>
+            <r id="221"/>
+            <r id="159"/>
+            <r id="163"/>
+            <r id="165"/>
+            <r id="167"/>
+            <r id="169"/>
+            <r id="173"/>
+            <r id="175"/>
+            <r id="177"/>
+            <r id="179"/>
+            <r id="183"/>
+            <r id="185"/>
+            <r id="187"/>
+            <r id="189"/>
+        </group>
     </folders>
     <packs/>
     <groups/>
@@ -139,6 +184,10 @@
     <attributes>
         <boolean cid="-1" id="12" name="PlateClick" save="true" value="true"/>
         <boolean cid="-1" id="4" name="SampleQuestionMenu" save="true" value="false"/>
+        <boolean cid="-1" id="48" name="Answered26" save="true" value="false"/>
+        <boolean cid="-1" id="47" name="Answered25" save="true" value="false"/>
+        <boolean cid="-1" id="46" name="Answered27" save="true" value="false"/>
+        <boolean cid="-1" id="50" name="UQuestion" save="true" value="false"/>
         <boolean cid="-1" id="22" name="Answered11" save="true" value="false"/>
         <boolean cid="-1" id="20" name="Answered10" save="true" value="false"/>
         <boolean cid="-1" id="26" name="Answered13" save="true" value="false"/>
@@ -150,6 +199,7 @@
         <boolean cid="-1" id="38" name="Correct_7" save="true" value="false"/>
         <boolean cid="-1" id="42" name="Correct_8" save="true" value="false"/>
         <boolean cid="-1" id="25" name="PlateHoverCheck" save="true" value="false"/>
+        <boolean cid="-1" id="49" name="Correct_9" save="true" value="false"/>
         <boolean cid="-1" id="8" name="Correct_1" save="true" value="false"/>
         <boolean cid="-1" id="10" name="Correct_2" save="true" value="false"/>
         <boolean cid="-1" id="11" name="Correct_3" save="true" value="false"/>
@@ -208,7 +258,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,6,8,9,11,12,14,24,26,28,32,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,76,78,80,82,84,86,88,90,92,94,96,98,100,102,105,107,109,111,113,115,117,119,121,123,125,127,129,131,132," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,2,4,6,8,9,11,12,14,24,26,28,32,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,76,78,80,82,84,86,88,90,92,94,96,98,100,102,105,107,109,111,113,115,117,119,121,123,125,127,129,131,132,134,135,136,137,138,139,141,143,145,147,149,151,153,155,157,159,161,163,165,167,169,171,173,175,177,179,181,183,185,187,189,191,193,195,197,199,201,203,205,207,209,213,215,217,219,221,223," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

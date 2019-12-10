@@ -100,7 +100,7 @@ class SceneEvents_3 extends SceneScript
 		{
 			if(wrapper.enabled)
 			{
-				g.setFont(getFont(8));
+				g.setFont(getFont(137));
 				g.drawString("" + "Score:", 750, 20);
 				g.drawString("" + (Engine.engine.getGameAttribute("Score") : Float), 800, 20);
 				Script.setDrawingLayerToActorLayer(getActor(1));

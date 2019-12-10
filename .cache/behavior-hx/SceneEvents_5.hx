@@ -75,13 +75,16 @@ class SceneEvents_5 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		createRecycledActor(getActorType(223), 395, 290, Script.FRONT);
+		
 		/* ========================= When Drawing ========================= */
 		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				g.setFont(getFont(8));
-				g.drawString("" + "GOOD JOB", 450, 230);
+				g.setFont(getFont(137));
+				g.drawString("" + "Good job", 450, 230);
 				Script.setDrawingLayerToActorLayer(getActor(1));
 			}
 		});
